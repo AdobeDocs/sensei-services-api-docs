@@ -1,4 +1,4 @@
-# Sensei Wins AutoSwatch Service
+# AutoSwatch Service
 
 Service exposing an http-based API for automatic computation of image swatches, based on the native [AutoSwatch](https://git.corp.adobe.com/jianmzha/AutoSwatch/tree/master/AutoSwatchLib) library.
 

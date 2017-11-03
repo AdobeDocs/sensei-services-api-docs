@@ -1,4 +1,4 @@
-# Sensei Wins DeepCutout Service
+# DeepCutout Service
 
 This service exposes an http-based API for image segmentation, based on the [DeepCut](https://git.corp.adobe.com/zlin/deepcut) library. It generates a B/W mask which separates the foreground (e.g. persons, pets, etc.) out of the rest of the input image. The output is in png format for lossless and efficient encoding.
 

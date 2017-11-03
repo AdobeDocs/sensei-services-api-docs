@@ -1,4 +1,4 @@
-# Sensei Wins Autotagging Service
+# Autotagging Service
 
 ## API
 

@@ -1,4 +1,4 @@
-# Sensei Wins Auto-Crop Service
+# Auto-Crop Service
 
 This service exposes an http-based API for automatic computation of image crops, based on the AutoCrop2 library.
 

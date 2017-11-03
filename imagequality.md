@@ -1,4 +1,4 @@
-# Sensei Wins Image Aesthetic Score Service
+# Image Aesthetic Score Service
 
 ## API
 
