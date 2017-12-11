@@ -2,7 +2,7 @@
 
 See below for Adobe Sensei Services APIs.
 
-## [Auto Tagger](autotagger.md)
+## [Auto Tag](autotag.md)
 ## [Auto Crop](autocrop.md)
 ## [Color Swatch](colorswatch.md)
 ## [Image Cutout](imagecutout.md)
