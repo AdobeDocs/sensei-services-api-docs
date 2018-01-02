@@ -1,4 +1,6 @@
-# Autotagging Service
+# Auto Tag Service
+
+This service exposes an HTTP-based API for applying tags to images.
 
 ## API
 
@@ -13,7 +15,7 @@ Tags for a given image can be predicted by sending `multipart/form-data` POST re
 * a text body part named `maxResults` specifies the maximum number of tags to be returned
 * a text body part named `minConfidence` specifies the minimal tag confidence value to consider (range [0 1], 1 for highest possible confidence)
 
-On successful completion the server returns a JSON array with object entries for every tag where the `tag` property specifies the tag name and `confidence` specifies the confidence of the tag assignment with a value ranging from 0.0 to 1.0 (1.0 represents highest possible confidence).
+On successful completion, the server returns a JSON array with object entries for every tag where the `tag` property specifies the tag name and `confidence` specifies the confidence of the tag assignment with a value ranging from 0.0 to 1.0 (1.0 represents highest possible confidence).
 
 Example:
 
