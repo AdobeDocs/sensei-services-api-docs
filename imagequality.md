@@ -44,24 +44,3 @@ Content-Type: application/json
   symmetry: 0.03112000599503517
 }
 ```
-
-## Run the service locally
-
-1. Install dependencies
-
-     ```
-     cd /path/to/GitLocal
-     cd image-aesthetic-service
-     npm install
-     cd ..
-     ```
-
-2. Run server
-
-     ```
-    ./mac_run.sh
-     ```
-
-3. Test service
-
-   Open [http://localhost:8888](http://localhost:8888) in your browser.

@@ -48,28 +48,3 @@ Content-Type: application/json
   { "tag": "nature", "confidence": "0.762" }
 ]
 ```
-
-## Run the service locally
-
-1. Download Model Files
-
-   Copy `data.zip` from `smb://sjshare.corp.adobe.com/share/mil_research_engineering/installation_large_files/hashtag2/` and extract it in `/sensei-data/autotagging` folder.
-
-2. Install dependencies
-
-     ```
-     cd /path/to/GitLocal
-     cd autotagging-service
-     npm install
-     cd ..
-     ```
-
-3. Run server
-
-     ```
-    ./mac_run.sh
-     ```
-
-4. Test service
-
-   Open [http://localhost:8888](http://localhost:8888) in your browser.
