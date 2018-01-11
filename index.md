@@ -1,3 +1,4 @@
+nav_order = 1
 # Adobe Sensei Services API Documentation
 
 See below for Adobe Sensei Services APIs.
