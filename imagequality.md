@@ -3,7 +3,7 @@
 ## API
 
 ```
-POST /api/imagequality
+POST https://sensei.adobe.io/image/api/imagequality
 
 ```
 
