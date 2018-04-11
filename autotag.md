@@ -5,7 +5,7 @@ This service exposes an HTTP-based API for applying tags to images.
 ## API
 
 ```
-POST https://sensei.adobe.io/image/autotag
+POST https://sensei-functions.adobe.io/image/autotag
 
 ```
 
