@@ -9,7 +9,7 @@ POST https://sensei.adobe.io/functions/autotag
 
 ```
 
-Tags for a given image can be predicted by sending JSON POST requests to `/api/autotag` where:
+Tags for a given image can be predicted by sending JSON POST requests to `/functions/autotag` where:
 
 * an `image` object provides either a URL string to the processed image, or a JSON object that presents the image
 * a `results` object specifies the maximum number of tags to be returned
