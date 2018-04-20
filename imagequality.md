@@ -3,11 +3,11 @@
 ## API
 
 ```
-POST https://sensei.adobe.io/functions/imagequality
+POST https://sensei.adobe.io/functions/image/imagequality
 
 ```
 
-An aesthetic score for a given image can be computed by sending JSON POST requests to `/functions/imagequality` where:
+An aesthetic score for a given image can be computed by sending JSON POST requests to `/functions/image/imagequality` where:
 
 * an `image` object provides either a URL string to the processed image, or a JSON object that presents the image
 
