@@ -1,6 +1,6 @@
 # Image Cutout Service
 
-This service exposes an HTTP-based API for image segmentation, based on the [DeepCut](https://git.corp.adobe.com/zlin/deepcut) library. It generates a B/W mask which separates the foreground (e.g. persons, pets, etc.) out of the rest of the input image. The output is in PNG format for lossless and efficient encoding.
+This service exposes an HTTP-based API for image segmentation, based on the DeepCut library from Adobe Research. It generates a B/W mask which separates the foreground (e.g. persons, pets, etc.) out of the rest of the input image. The output is in PNG format for lossless and efficient encoding.
 
 ## API
 
@@ -24,8 +24,4 @@ Example:
 }
 ```
 
-A `blocking` GET param query can be used to determine whether the request should be blocked until result is available, or an activation ID is returned for retrieving result at a later time.
-
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or a B/W mask in PNG format if `blocking=true`.
-
-For getting activation result by ID, please see [Activation API](activation.md).
+On successful completion, the server returns a B/W mask in PNG format.

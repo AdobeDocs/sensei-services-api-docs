@@ -25,7 +25,7 @@ Example:
 }
 ```
 
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or a JSON object of generated crop suggestion if `blocking=true`.
+On successful completion, the server returns a JSON object of generated crop suggestion.
 
 Example:
 
@@ -39,5 +39,3 @@ Example:
   }
 }
 ```
-
-For getting activation result by ID, please see [Activation API](activation.md).

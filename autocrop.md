@@ -25,9 +25,7 @@ Example:
 }
 ```
 
-A `blocking` GET param query can be used to determine whether the request should be blocked until result is available, or an activation ID is returned for retrieving result at a later time.
-
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or an array of generated crop suggestions (ordered by overall score) if `blocking=true`.
+On successful completion, the server returns a JSON array `cropSuggestions` of generated crop suggestions (ordered by overall score).
 
 Example:
 
@@ -134,5 +132,3 @@ Example:
   ],
 }
 ```  
-
-For getting activation result by ID, please see [Activation API](activation.md).

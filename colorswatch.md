@@ -27,7 +27,7 @@ Example:
 }
 ```
 
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or a JSON array of generated swatch suggestions (ordered by score) if `blocking=true`.
+On successful completion, the server returns a JSON array of generated swatch suggestions (ordered by score).
 
 Example:
 
@@ -52,5 +52,3 @@ Example:
     ]
 }
 ```
-
-For getting activation result by ID, please see [Activation API](activation.md).
