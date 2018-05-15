@@ -1,4 +1,4 @@
-# Image Aesthetic Score Service
+# Image Quality Service
 
 This service exposes an HTTP-based API for image quality analysis using the aesthetic model.
 
