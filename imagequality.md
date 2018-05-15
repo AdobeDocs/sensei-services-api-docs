@@ -1,4 +1,4 @@
-# Image Aesthetic Score Service
+# Image Quality Service
 
 ## API
 
@@ -46,4 +46,4 @@ Example:
 }
 ```
 
-For getting activation result by ID, please see [Activation API](activation.md).
+
