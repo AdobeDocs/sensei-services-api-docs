@@ -135,4 +135,4 @@ Example:
 }
 ```  
 
-For getting activation result by ID, please see [Activation API](activation.md).
+
