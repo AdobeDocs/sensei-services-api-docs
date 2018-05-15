@@ -6,7 +6,6 @@ This service exposes an HTTP-based API for image quality analysis using the aest
 
 ```
 POST https://sensei.adobe.io/functions/image/imagequality
-
 ```
 
 An aesthetic score for a given image can be computed by sending JSON POST requests to `/functions/image/imagequality` where:

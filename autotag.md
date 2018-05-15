@@ -6,7 +6,6 @@ This service exposes an HTTP-based API for applying tags to images.
 
 ```
 POST https://sensei.adobe.io/functions/image/autotag
-
 ```
 
 Tags for a given image can be predicted by sending JSON POST requests to `/functions/image/autotag` where:
