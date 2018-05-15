@@ -5,11 +5,10 @@ This service exposes an HTTP-based API for applying tags to images.
 ## API
 
 ```
-POST https://sensei.adobe.io/functions/autotag
-
+POST https://sensei.adobe.io/functions/image/autotag
 ```
 
-Tags for a given image can be predicted by sending JSON POST requests to `/api/autotag` where:
+Tags for a given image can be predicted by sending JSON POST requests to `/functions/image/autotag` where:
 
 * an `image` object provides either a URL string to the processed image, or a JSON object that presents the image
 * a `results` object specifies the maximum number of tags to be returned
@@ -31,9 +30,7 @@ Example:
 }
 ```
 
-A `blocking` GET param query can be used to determine whether the request should be blocked until result is available, or an activation ID is returned for retrieving result at a later time.
-
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or a JSON array with object entries for every tag (if `blocking=true`) where the `tag` property specifies the tag name and `confidence` specifies the confidence of the tag assignment with a value ranging from 0.0 to 1.0 (1.0 represents highest possible confidence).
+On successful completion, the server returns a JSON array of object entries for every tag where the `tag` property specifies the tag name and `confidence` specifies the confidence of the tag assignment with a value ranging from 0.0 to 1.0 (1.0 represents highest possible confidence).
 
 Example:
 
@@ -46,5 +43,3 @@ Example:
   ]
 }
 ```
-
-For getting activation result by ID, please see [Activation API](activation.md).

@@ -2,7 +2,6 @@
 
 See below for Adobe Sensei Services APIs.
 
-## [Activation](activation.md)
 ## [Auto Tag](autotag.md)
 ## [Auto Crop](autocrop.md)
 ## [Body Part Crop](bodycrop.md)

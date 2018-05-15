@@ -1,13 +1,14 @@
 # Image Quality Service
 
+This service exposes an HTTP-based API for image quality analysis using the aesthetic model.
+
 ## API
 
 ```
-POST https://sensei.adobe.io/functions/imagequality
-
+POST https://sensei.adobe.io/functions/image/imagequality
 ```
 
-An aesthetic score for a given image can be computed by sending JSON POST requests to `/api/imagequality` where:
+An aesthetic score for a given image can be computed by sending JSON POST requests to `/functions/image/imagequality` where:
 
 * an `image` object provides either a URL string to the processed image, or a JSON object that presents the image
 
@@ -25,9 +26,7 @@ Example:
 }
 ```
 
-A `blocking` GET param query can be used to determine whether the request should be blocked until result is available, or an activation ID is returned for retrieving result at a later time.
-
-On successful completion, the server returns a JSON object with an activation ID if `blocking` is false or not defined, or a JSON object with the computed individual scores if `blocking=true`.
+On successful completion, the server returns a JSON object with the computed individual scores.
 
 Example:
 
@@ -45,5 +44,3 @@ Example:
   "symmetry": 0.03112000599503517
 }
 ```
-
-
