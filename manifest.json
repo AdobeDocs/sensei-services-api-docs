@@ -1,0 +1,56 @@
+{
+"name": "Sensei Services API Docs",
+"version": "1.0.0",
+"description": "Sensei",
+"author": "C. Rand McKinney",
+"view_type": "mdbook",
+"meta_keywords": "adobe i/o,sensei",
+"meta_description": "Sensei service API documentation",
+"publish_date": "27/08/2018",
+"show_edit_github_banner": false,
+"base_path": "https://raw.githubusercontent.com",
+"pages": [
+    {
+      "importedFileName": "index",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/index.md",
+      "title": "Overview"
+    },
+    {
+      "importedFileName": "auto-tag",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/autotag.md",
+      "title": " Auto Tag"
+    },
+    {
+      "importedFileName": "auto-crop",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/autocrop.md",
+      "title": "Auto Crop"
+    },
+    {
+      "importedFileName": "body-crop",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/bodycrop.md",
+      "title": "Body Crop"
+    },
+    {
+      "importedFileName": "color-swatch",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/colorswatch.md",
+      "title": "Color Swatch"
+    },
+    {
+      "importedFileName": "image-cutout",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/imagecutout.md",
+      "title": "Image Cutout"
+    },
+    {
+      "importedFileName": "image-quality",
+      "pages": [],
+      "path": "AdobeDocs/sensei-services-api-docs/master/imagequality.md",
+      "title": "Image Quality"
+    }
+]
+}
